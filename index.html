@@ -9,19 +9,14 @@
 <body>
     <header>
         <h1>Lista de tarefas</h1>
-        <button>Adicionar tarefa</button>
+        <button type="button">Adicionar tarefa</button>
     </header>
     <form>
-        <input type="text" placeholder="Nome da tarefa"/>
+        <input type="text" id="new-task-input" placeholder="Nome da tarefa" required/>
         <button type="submit">Adicionar</button>
         <button type="reset" id="cancel-btn">Cancelar</button>
     </form>
     <ul>
-        <li>
-            <p>
-                Tarefa 1
-            </p>
-        </li>
     </ul>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./main.js"></script>

@@ -29,11 +29,10 @@ button:hover {
 
 form {
     padding: 16px;
+    margin: 0 auto;
+    text-align: center;
     background-color: rgb(38, 44, 46);
-    display: flex;
-    justify-content: center;
     gap: 16px;
-    margin-bottom: 20px;
     display: none;
 }
 
@@ -55,18 +54,18 @@ input {
 
 ul {
     width: 40%;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: rgb(41, 41, 41);
-    padding: 16px;
     color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    display: none;
 }
 
 ul li {
     list-style: none;
     cursor: pointer;
+    padding: 8px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.274);
+    font-size: 1.3em;
 }
 
 ul li:hover {
